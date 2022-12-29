@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    margin-top:3%;
+}
+.vi,.ocu{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.vis{
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+    color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+}
+.actualizar{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.visi{
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+    color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+}
+.formac{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mod{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    color:white;
+    background-color: rgb(255, 3, 3) !important;
+}
+.es-visible{
+    visibility: visible;
+    position: fixed;
+    z-index: 1;
+    top:100px;
+    left: 150px;
+    right: 0px;
+    width: 70%;
+    height: auto;
+    opacity: 1;
+}
